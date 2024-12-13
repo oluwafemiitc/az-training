@@ -84,11 +84,11 @@ variable "storage_account_name" {
   type        = string
 }
 
-/*
-variable "nsg_id" {
-  description = "The name of the storage account."
+
+variable "container_name" {
+  description = "The name of the storage account container"
   type        = string
-}*/
+}
 
 
 
