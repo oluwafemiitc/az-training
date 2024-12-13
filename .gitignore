@@ -37,3 +37,37 @@ override.tf.json
 terraform.rc
 
 .terraform.lock.hcl
+
+
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build directories
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Compiled files
+*.log
+*.compiled
+*.min.js
+
